@@ -225,7 +225,7 @@ if __name__ =='__main__':
 ]
 
     
-    Data = np.loadtxt(fname)
+    Data = np.load_txt(fname)
 
     TorR ='T'
     # Data[:,0] = Data[:,0]*np.array(coefficient_la*12)
