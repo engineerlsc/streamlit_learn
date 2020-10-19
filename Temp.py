@@ -15,8 +15,8 @@ from bokeh.plotting import figure
 from bokeh.transform import factor_cmap
 import scipy
 import streamlit as st
-import plotly.express as px
-import plotly.graph_objs as go
+#import plotly.express as px
+#import plotly.graph_objs as go
 from bokeh.plotting import figure, output_file, show
 from bokeh.models import Arrow, OpenHead, NormalHead, VeeHead
 
