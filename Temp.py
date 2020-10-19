@@ -198,7 +198,7 @@ def plot_compare(Data,Title,units,labels,X2,X1,TorR = 'T',compare_phase = ''): #
         
 if __name__ =='__main__':
 
-    path = 'C:/Users/shuchao.lv/Desktop/'
+    path = 'https://github.com/engineerlsc/streamlit_learn/blob/main/'
     fname = path+'data_clean4.txt'
     
 
