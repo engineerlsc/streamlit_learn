@@ -20,6 +20,17 @@ import streamlit as st
 from bokeh.plotting import figure, output_file, show
 from bokeh.models import Arrow, OpenHead, NormalHead, VeeHead
 
+def load_txt(fname):
+    Data = []
+    with open(fname) as f:
+        for line in f.readlines():
+            line = line.strip().split('\t')
+            if len(line)==0:
+                break
+            else:
+                data = list(map(float,line))
+            Data.append(data)
+    return np.array(Data)
 
 
 
