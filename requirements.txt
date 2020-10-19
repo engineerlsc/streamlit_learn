@@ -1,2 +1,4 @@
 bokeh
 streamlit
+scipy
+numpy
